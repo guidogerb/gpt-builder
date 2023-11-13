@@ -1,0 +1,11 @@
+[myconfig]
+project_name = my-react-app
+clean = True
+
+[git]
+GIT_PYTHON_GIT_EXECUTABLE=<path/to/git>
+
+[mypy-requests.*]
+ignore_missing_imports = False
+[mypy-yaml.*]
+ignore_missing_imports = False
