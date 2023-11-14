@@ -1,0 +1,3 @@
+To run:
+
+python main.py --domain google.com --execute_scrape True
