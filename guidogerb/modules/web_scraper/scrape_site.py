@@ -25,7 +25,7 @@ def scrape_site(start_url, domain, scraped_file, queue_file, chrome_driver_path)
 
                 try:
                     browser.get(current_url)
-                    time.sleep(3)
+                    time.sleep(5)
                     scraped_urls.add(current_url)
 
                     links = browser.find_elements(By.TAG_NAME, 'a')
